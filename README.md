@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&size=25&duration=3000&pause=1000&color=FF6B6B&background=000000&center=true&vCenter=true&multiline=true&width=600&height=80&lines=+Software+Engineer+;+Building+Cool+Stuff+" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&size=25&duration=3000&pause=1000&color=FF6B6B&background=000000&center=true&vCenter=true&multiline=true&width=600&height=120&lines=+Software+Engineer+;+Building+Cool+Stuff+;clearly+not+a+designer" alt="Typing SVG" />
 
 </div>
 
 <div align="center">
 
-## D I E G O &nbsp; A R G O T T E
+<img src="https://github.com/argotte/argotte/blob/main/assets/wordart.png?raw=true" alt="DIEGO ARGOTTE WordArt" width="600">
 
 </div>
 
