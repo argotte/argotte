@@ -42,11 +42,9 @@
 <div align="center">
 
 <!-- Guestbook -->
-
-| Name |     Date      |         Message         |
-| :--: | :-----------: | :---------------------: |
-|  🎯  | _Coming Soon_ | _Be the first to sign!_ |
-
+| Name | Date | Message |
+|:---:|:---:|:---:|
+| 🎯 | *Coming Soon* | *Be the first to sign!* |
 <!-- Guestbook -->
 
 </div>
