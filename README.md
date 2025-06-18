@@ -35,16 +35,22 @@
 
 <div align="center">
 
-## <span style="color: #ff6b6b">G</span><span style="color: #4ecdc4">u</span><span style="color: #45b7d1">e</span><span style="color: #96ceb4">s</span><span style="color: #ffeaa7">t</span><span style="color: #dda0dd">b</span><span style="color: #98d8c8">o</span><span style="color: #f7dc6f">o</span><span style="color: #bb8fce">k</span> ([Add a new entry](https://github.com/argotte/argotte/issues/1))
+<img src="https://readme-typing-svg.herokuapp.com?font=Creepster&size=45&duration=2000&pause=500&color=FF6B9D&background=000000&center=true&vCenter=true&multiline=true&width=600&height=120&lines=+G+U+E+S+T+B+O+O+K+;✨+ADD+A+NEW+ENTRY+✨" alt="Guestbook WordArt" />
+
+<br>
+
+**👾 [Click here to sign my guestbook!](https://github.com/argotte/argotte/issues/1) 👾**
 
 </div>
 
 <div align="center">
 
 <!-- Guestbook -->
-| Name | Date | Message |
-|:---:|:---:|:---:|
+
+|                 Name                  |        Date        | Message |
+| :-----------------------------------: | :----------------: | :-----: |
 | [argotte](https://github.com/argotte) | 6/18/2025, 7:18 PM | testing |
+
 <!-- Guestbook -->
 
 </div>
