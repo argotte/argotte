@@ -50,6 +50,7 @@
 |:---:|:---:|:---:|
 | [argotte](https://github.com/argotte) | 6/18/2025, 7:18 PM | testing |
 | [italovisconti](https://github.com/italovisconti) | 6/18/2025, 7:54 PM | hip hop |
+| [Steiks10](https://github.com/Steiks10) | 6/18/2025, 8:13 PM | Bojack Horseman |
 <!-- Guestbook -->
 
 </div>
