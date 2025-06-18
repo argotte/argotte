@@ -1,0 +1,86 @@
+name: Guestbook
+
+on:
+  issue_comment:
+    types: [created, edited, deleted]
+  issues:
+    types: [opened]
+
+jobs:
+  update_guestbook:
+    if: github.event.issue.number == 1
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update guestbook
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+
+            // Get all comments from the guestbook issue
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: 1,
+              per_page: 100
+            });
+
+            // Build the guestbook table
+            let guestbookTable = '<!-- Guestbook -->\n| Name | Date | Message |\n|:---:|:---:|:---:|\n';
+
+            if (comments.data.length === 0) {
+              guestbookTable += '| 🎯 | *Coming Soon* | *Be the first to sign!* |\n';
+            } else {
+              // Sort comments by creation date (newest first, but we'll reverse for oldest first)
+              const sortedComments = comments.data.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+              
+              for (const comment of sortedComments.slice(-10)) { // Show last 10 comments
+                const author = comment.user.login;
+                const date = new Date(comment.created_at).toLocaleDateString('en-US', {
+                  month: 'numeric',
+                  day: 'numeric',
+                  year: 'numeric',
+                  hour: 'numeric',
+                  minute: '2-digit'
+                });
+                
+                // Clean the message - remove markdown, limit length
+                let message = comment.body
+                  .replace(/[#*`\[\]()]/g, '')
+                  .replace(/\n/g, ' ')
+                  .substring(0, 50);
+                
+                if (comment.body.length > 50) {
+                  message += '...';
+                }
+                
+                guestbookTable += `| [${author}](https://github.com/${author}) | ${date} | ${message} |\n`;
+              }
+            }
+
+            guestbookTable += '<!-- Guestbook -->';
+
+            // Read the current README
+            const readmePath = 'README.md';
+            let readmeContent = fs.readFileSync(readmePath, 'utf8');
+
+            // Replace the guestbook section
+            const guestbookRegex = /<!-- Guestbook -->[\s\S]*?<!-- Guestbook -->/;
+            readmeContent = readmeContent.replace(guestbookRegex, guestbookTable);
+
+            // Write the updated README
+            fs.writeFileSync(readmePath, readmeContent);
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "🎉 Update guestbook"
+          git push
