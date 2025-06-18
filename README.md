@@ -16,7 +16,7 @@
 <tr>
 <td align="center" width="50%">
 
-[🌍 **hire me** 🌍](https://github.com/argotte)
+[🌍 **hire me** 🌍](https://www.linkedin.com/in/diego-argotte-2a82441a8/)
 
 <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="240">
 
