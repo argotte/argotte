@@ -39,7 +39,7 @@
 
 <br>
 
-**👾 [Click here to sign my guestbook!](https://github.com/argotte/argotte/issues/1) 👾**
+** [Click here to sign my guestbook!](https://github.com/argotte/argotte/issues/1) **
 
 </div>
 
