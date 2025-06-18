@@ -23,7 +23,7 @@
 </td>
 <td align="center" width="50%">
 
-[🎵 **listen to cool music** 🎵](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[🎵 **listen to cool music** 🎵](https://www.youtube.com/watch?v=MT01gsqbX7c&ab_channel=WarmSocksGleckto)
 
 <img src="https://media.giphy.com/media/3o7qDEq2bMbcbPRQ2c/giphy.gif" width="240">
 
