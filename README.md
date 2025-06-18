@@ -46,11 +46,10 @@
 <div align="center">
 
 <!-- Guestbook -->
-
-|                 Name                  |        Date        | Message |
-| :-----------------------------------: | :----------------: | :-----: |
+| Name | Date | Message |
+|:---:|:---:|:---:|
 | [argotte](https://github.com/argotte) | 6/18/2025, 7:18 PM | testing |
-
+| [italovisconti](https://github.com/italovisconti) | 6/18/2025, 7:54 PM | hip hop |
 <!-- Guestbook -->
 
 </div>
