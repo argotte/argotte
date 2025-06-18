@@ -51,7 +51,6 @@
 | [argotte](https://github.com/argotte) | 6/18/2025, 7:18 PM | testing |
 | [italovisconti](https://github.com/italovisconti) | 6/18/2025, 7:54 PM | hip hop |
 | [Steiks10](https://github.com/Steiks10) | 6/18/2025, 8:20 PM | hello from 10.485397727963845, -66.85516147784804 |
-| [ArtuKILL](https://github.com/ArtuKILL) | 6/18/2025, 8:52 PM | bip bip bop |
 <!-- Guestbook -->
 
 </div>
