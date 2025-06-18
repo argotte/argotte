@@ -44,7 +44,7 @@
 <!-- Guestbook -->
 | Name | Date | Message |
 |:---:|:---:|:---:|
-| 🎯 | *Coming Soon* | *Be the first to sign!* |
+| [argotte](https://github.com/argotte) | 6/18/2025, 7:18 PM | testing |
 <!-- Guestbook -->
 
 </div>
