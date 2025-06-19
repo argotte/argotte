@@ -51,6 +51,7 @@
 | [argotte](https://github.com/argotte) | 6/18/2025, 7:18 PM | testing |
 | [italovisconti](https://github.com/italovisconti) | 6/18/2025, 7:54 PM | hip hop |
 | [Steiks10](https://github.com/Steiks10) | 6/18/2025, 8:20 PM | hello from 10.485397727963845, -66.85516147784804 |
+| [jorge-ld8](https://github.com/jorge-ld8) | 6/19/2025, 4:27 AM | sending my love from the other side |
 <!-- Guestbook -->
 
 </div>
